@@ -1,0 +1,22 @@
+{
+  "name": "Kosmetika Petra",
+  "short_name": "Kosmetika Petra",
+  "description": "Kosmetická ošetření, svatební líčení, lash lifting, laminace obočí a workshopy krásy v Lípě u Havlíčkova Brodu.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbf9f5",
+  "theme_color": "#6f8b74",
+  "lang": "cs",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

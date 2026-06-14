@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #fbf9f5;
+  color: #2f3a32;
+  line-height: 1.7;
+}
+
+/* ─── SCROLL ANIMATION ────────────────────────────────── */
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
