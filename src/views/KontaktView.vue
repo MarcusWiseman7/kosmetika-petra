@@ -346,6 +346,7 @@ const BOOKING_URL =
 .building-photo {
   width: 100%;
   height: auto;
+  aspect-ratio: 1535 / 1024;
   object-fit: cover;
   border-radius: 24px;
 }

@@ -149,7 +149,6 @@ onUnmounted(() => {
         <img
           src="@/assets/images/petra1.webp"
           alt="Petra – Kosmetika Petra Lípa u Havlíčkova Brodu"
-          width="340"
           loading="eager"
         />
       </div>
@@ -328,6 +327,7 @@ onUnmounted(() => {
 .hero-image img {
   width: 100%;
   max-width: 340px;
+  aspect-ratio: 3018 / 4527;
   border-radius: 30px;
   object-fit: cover;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
@@ -391,6 +391,7 @@ section {
 
 .about img {
   width: 50%;
+  aspect-ratio: 3671 / 5507;
   display: block;
   margin: auto;
   border-radius: 30px;
