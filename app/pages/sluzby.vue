@@ -82,6 +82,7 @@ function toggleItem(id: string) {
 <template>
   <main>
     <div class="services-page">
+      <h1>Služby</h1>
       <!-- KOSMETIKA -->
       <article id="kosmetika" v-appear class="service-section">
         <div class="service-media">
@@ -269,7 +270,14 @@ function toggleItem(id: string) {
 /* ── Layout ──────────────────────────────────────────── */
 
 .services-page {
-  padding: 180px 10% 120px;
+  padding: 100px 10% 120px;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 72px;
+  font-weight: 400;
+  color: #6f8b74;
 }
 
 .service-section {
@@ -572,6 +580,10 @@ function toggleItem(id: string) {
   .services-page {
     padding: 0;
     padding-top: 100px;
+  }
+
+  h1 {
+    text-align: center;
   }
 
   .service-section,

@@ -25,7 +25,7 @@ const BOOKING_URL =
         <div class="contact-info">
           <div class="contact-box">
             <h3><i class="fa-solid fa-phone" aria-hidden="true"></i> Telefon</h3>
-            <p><a href="tel:+420726168334">726 168 334</a></p>
+            <p><a href="tel:+420725168334">725 168 334</a></p>
           </div>
 
           <div class="contact-box">
