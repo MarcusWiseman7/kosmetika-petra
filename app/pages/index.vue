@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue';
-import { RouterLink } from 'vue-router';
-import { useMeta } from '@/composables/useMeta';
 
 useMeta({
   title: 'Kosmetika Petra | Kosmetika, vizáž, laminace obočí a lash lifting Lípa u Havlíčkova Brodu',
@@ -143,7 +141,7 @@ onUnmounted(() => {
     <header class="hero" aria-label="Uvítací sekce">
       <div class="hero-text">
         <h1>Krása, péče a chvíle jen pro Vás 🌿</h1>
-        <RouterLink class="hero-btn" to="/kontakt">NAPSAT ZPRÁVU</RouterLink>
+        <NuxtLink class="hero-btn" to="/kontakt">NAPSAT ZPRÁVU</NuxtLink>
       </div>
       <div class="hero-image">
         <img
@@ -196,19 +194,19 @@ onUnmounted(() => {
         <article class="service-card">
           <h3>Kosmetika</h3>
           <p>Kosmetická ošetření, lash lifting, laminace obočí a péče, díky které se budete cítit krásně.</p>
-          <RouterLink class="service-btn-home" to="/sluzby#kosmetika">Zobrazit služby</RouterLink>
+          <NuxtLink class="service-btn-home" to="/sluzby#kosmetika">Zobrazit služby</NuxtLink>
         </article>
 
         <article class="service-card">
           <h3>Vizáž & Make-up</h3>
           <p>Svatební, plesové i slavnostní líčení pro vaše nejdůležitější okamžiky.</p>
-          <RouterLink class="service-btn-home" to="/sluzby#vizaz">Zobrazit služby</RouterLink>
+          <NuxtLink class="service-btn-home" to="/sluzby#vizaz">Zobrazit služby</NuxtLink>
         </article>
 
         <article class="service-card">
           <h3>Workshopy</h3>
           <p>Skupinové i individuální beauty workshopy plné tipů, líčení a péče o pleť v příjemné atmosféře 🌿</p>
-          <RouterLink class="service-btn-home" to="/sluzby#workshop">Zjistit více</RouterLink>
+          <NuxtLink class="service-btn-home" to="/sluzby#workshop">Zjistit více</NuxtLink>
         </article>
       </div>
     </section>

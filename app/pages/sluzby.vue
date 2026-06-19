@@ -1,8 +1,5 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { RouterLink } from 'vue-router';
-import ImageSlider from '@/components/ImageSlider.vue';
-import { useMeta } from '@/composables/useMeta';
 
 useMeta({
   title: 'Služby | Kosmetika Petra',
@@ -161,7 +158,7 @@ function toggleItem(id: string) {
           </ul>
 
           <div class="service-buttons">
-            <RouterLink class="service-btn" to="/kontakt">POPTAT TERMÍN A CENU</RouterLink>
+            <NuxtLink class="service-btn" to="/kontakt">POPTAT TERMÍN A CENU</NuxtLink>
             <button type="button" class="faq-toggle" @click="toggleFaq('vizaz')">NEJČASTĚJŠÍ OTÁZKY</button>
           </div>
 
@@ -214,7 +211,7 @@ function toggleItem(id: string) {
           </ul>
 
           <div class="service-buttons">
-            <RouterLink class="service-btn" to="/kontakt">POPTAT TERMÍN</RouterLink>
+            <NuxtLink class="service-btn" to="/kontakt">POPTAT TERMÍN</NuxtLink>
             <button type="button" class="faq-toggle" @click="toggleFaq('workshop')">NEJČASTĚJŠÍ OTÁZKY</button>
           </div>
 

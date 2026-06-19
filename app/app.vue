@@ -1,13 +1,7 @@
-<script setup lang="ts">
-import TheNavbar from '@/components/TheNavbar.vue';
-import TheFooter from '@/components/TheFooter.vue';
-import '@/assets/main.css';
-</script>
-
 <template>
   <div class="page-wrapper">
     <TheNavbar />
-    <RouterView />
+    <NuxtPage />
     <TheFooter />
   </div>
 </template>

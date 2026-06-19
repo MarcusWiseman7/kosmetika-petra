@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { useMeta } from '@/composables/useMeta';
-
 useMeta({
   title: 'Kontakt | Kosmetika Petra – Lípa u Havlíčkova Brodu',
   description:

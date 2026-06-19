@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import { RouterLink } from 'vue-router';
 
 const menuOpen = ref(false);
 
@@ -14,10 +13,10 @@ const BOOKING_URL =
 
 <template>
   <nav aria-label="Hlavní navigace">
-    <RouterLink to="/" class="logo" @click="closeMenu">
+    <NuxtLink to="/" class="logo" @click="closeMenu">
       <img src="@/assets/images/logo.webp" alt="Kosmetika Petra logo" width="70" height="70" />
       <span>Kosmetika Petra</span>
-    </RouterLink>
+    </NuxtLink>
 
     <button
       class="menu-toggle"
@@ -30,12 +29,12 @@ const BOOKING_URL =
     </button>
 
     <ul id="nav-menu" :class="{ active: menuOpen }" role="list">
-      <li><RouterLink to="/" @click="closeMenu">Domů</RouterLink></li>
-      <li><RouterLink to="/#o-mne" @click="closeMenu">O mně</RouterLink></li>
-      <li><RouterLink to="/#sluzby" @click="closeMenu">Služby</RouterLink></li>
-      <li><RouterLink to="/#galerie" @click="closeMenu">Galerie</RouterLink></li>
-      <li><RouterLink to="/#reference" @click="closeMenu">Reference</RouterLink></li>
-      <li><RouterLink to="/kontakt" @click="closeMenu">Kontakt</RouterLink></li>
+      <li><NuxtLink to="/" @click="closeMenu">Domů</NuxtLink></li>
+      <li><NuxtLink to="/#o-mne" @click="closeMenu">O mně</NuxtLink></li>
+      <li><NuxtLink to="/#sluzby" @click="closeMenu">Služby</NuxtLink></li>
+      <li><NuxtLink to="/#galerie" @click="closeMenu">Galerie</NuxtLink></li>
+      <li><NuxtLink to="/#reference" @click="closeMenu">Reference</NuxtLink></li>
+      <li><NuxtLink to="/kontakt" @click="closeMenu">Kontakt</NuxtLink></li>
       <li>
         <a
           href="https://www.instagram.com/kosmetika_petra_lipa_/"
