@@ -56,6 +56,7 @@ export default defineNuxtConfig({
         },
       ],
       meta: [
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'msapplication-config', content: '/browserconfig.xml' },
         { name: 'theme-color', content: '#6f8b74' },
         { name: 'robots', content: 'index, follow' },

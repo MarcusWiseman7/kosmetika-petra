@@ -702,6 +702,10 @@ section {
     gap: 20px;
   }
 
+  .hero-text h1 {
+    white-space: normal;
+  }
+
   .hero-btn {
     left: 0;
   }
